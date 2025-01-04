@@ -1,0 +1,9 @@
+﻿#ifndef RENDERLAYERS_H
+#define RENDERLAYERS_H
+
+#define CURSOR_LAYER 20
+#define MISSILE_LAYER 10
+#define CITY_LAYER 0
+#define STATIC_BACKGROUND_LAYER -20
+
+#endif

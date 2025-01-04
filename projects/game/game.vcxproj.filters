@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\game_objects">
+      <UniqueIdentifier>{10702940-eb60-4781-94aa-2f6f8f40a254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{35242b1b-8882-46af-84ba-5fe1d510fb63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\render_utils">
+      <UniqueIdentifier>{bc392032-b552-4f27-8438-a21e5821d6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scenes">
+      <UniqueIdentifier>{347cb5ad-4fed-46b8-a4a0-ff3d217c4eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_objects">
+      <UniqueIdentifier>{ddebf6a3-0fe6-4165-985c-e016bd8db3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render_utils">
+      <UniqueIdentifier>{fdf2ac73-37ed-4c26-9030-704cc0cc4a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scenes">
+      <UniqueIdentifier>{984d75ec-1cb7-44aa-bf83-5e1974a5eb7d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\game\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\render_thread.cpp">
+      <Filter>Source Files\render_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\misilesscene.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\game_objects.cpp">
+      <Filter>Source Files\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\sprite.cpp">
+      <Filter>Source Files\render_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\spritesheet.cpp">
+      <Filter>Source Files\render_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\Circle.cpp">
+      <Filter>Source Files\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\Ciudad.cpp">
+      <Filter>Source Files\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\Suelo.cpp">
+      <Filter>Source Files\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\Missile.cpp">
+      <Filter>Source Files\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\Torreta.cpp">
+      <Filter>Source Files\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\MissilePlayer.cpp">
+      <Filter>Source Files\game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game\Cursor.cpp">
+      <Filter>Source Files\game_objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\game\game_objects.h">
+      <Filter>Header Files\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\misilesscene.h">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\atomicops.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\readerwriterqueue.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\sprite.h">
+      <Filter>Header Files\render_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\spritesheet.h">
+      <Filter>Header Files\render_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\render_layers.h">
+      <Filter>Header Files\render_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\render_thread.h">
+      <Filter>Header Files\render_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\messages.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\Ciudad.h">
+      <Filter>Header Files\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\Suelo.h">
+      <Filter>Header Files\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\Circle.h">
+      <Filter>Header Files\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\Missile.h">
+      <Filter>Header Files\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\Torreta.h">
+      <Filter>Header Files\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\MissilePlayer.h">
+      <Filter>Header Files\game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\game\Cursor.h">
+      <Filter>Header Files\game_objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
